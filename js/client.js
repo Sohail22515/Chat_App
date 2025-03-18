@@ -1,5 +1,6 @@
-const socket = io("http://localhost:8000");
+// const socket = io("http://localhost:8000");
 
+const socket = io("https://chat-app-2-b4hg.onrender.com");
 
 const form = document.getElementById('send-container');
 const messageInput =document.getElementById('messageInp');
